@@ -7,3 +7,14 @@ if(person1 > person2){
 else{
     console.log("This person is the greatest", person2)
 }
+
+function getMax(num1, num2){
+    if(num1 > num2){
+        return num1;
+    }
+    else{
+        return num2;
+    }
+}
+let result = getMax(20, 30);
+console.log("The greatest number is ", result);
