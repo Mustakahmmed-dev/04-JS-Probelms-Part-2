@@ -24,5 +24,15 @@ function getMaxNum(num1, num2, num3){
         return num3;
     }
 }
-let maxNum = getMaxNum(40, 50, 140);
+let maxNum = getMaxNum(40, 400, 140);
+let maxNum2 = getMaxNum(100, 300, 200);
 console.log("greatest number is ", maxNum);
+console.log("the Greatest num is ", maxNum2);
+
+// Comparing between two callbacks fun
+if(maxNum > maxNum2){
+    console.log("greatest : ", maxNum)
+}
+else{
+    console.log("Greatest : ", maxNum2)
+}
